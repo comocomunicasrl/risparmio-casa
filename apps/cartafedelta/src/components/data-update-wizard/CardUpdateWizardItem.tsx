@@ -556,10 +556,10 @@ const CardUpdateWizardItem = ({
                         {(brand === 'rica') && (<a
                             href={
                                 region === CountryCode.Switzerland
-                                    ? '/regolamento-2025-CH.pdf'
+                                    ? '/regolamento_svizzera_2026.pdf'
                                     : region === CountryCode.Malta
-                                    ? '/regolamento-2025-MT.pdf'
-                                    : '/regolamento-2025-IT.pdf'
+                                    ? '/regolamento_malta_2026.pdf'
+                                    : '/regolamento_italia_2026.pdf'
                             }
                             target="_blank"
                             rel="noreferrer"
@@ -568,7 +568,7 @@ const CardUpdateWizardItem = ({
                             {translate(languageCode, 'updateCard.personalDetails.consentToMarketingTwo')}
                         </a>)}
                         {(brand === 'uniprice') && (<a
-                            href="/regolamento-2025-IT-uniprice.pdf"
+                            href="/regolamento_uniprice_2026.pdf"
                             target="_blank"
                             className="text-blue-600 hover:underline hover:cursor-pointer"
                             rel="noreferrer"
@@ -606,10 +606,10 @@ const CardUpdateWizardItem = ({
                         {(brand === 'rica') && (<a
                             href={
                                 region === CountryCode.Switzerland
-                                    ? '/regolamento-2025-CH.pdf'
+                                    ? '/regolamento_svizzera_2026.pdf'
                                     : region === CountryCode.Malta
-                                    ? '/regolamento-2025-MT.pdf'
-                                    : '/regolamento-2025-IT.pdf'    
+                                    ? '/regolamento_malta_2026.pdf'
+                                    : '/regolamento_italia_2026.pdf'    
                             }
                             target="_blank"
                             rel="noreferrer"
@@ -618,7 +618,7 @@ const CardUpdateWizardItem = ({
                             {translate(languageCode, 'personalDetails.consentToStatisticsTwo')}
                         </a>)}
                         {(brand === 'uniprice') && (<a
-                            href="/regolamento-2025-IT-uniprice.pdf"
+                            href="/regolamento_uniprice_2026.pdf"
                             target="_blank"
                             className="text-blue-600 hover:underline hover:cursor-pointer"
                             rel="noreferrer"
